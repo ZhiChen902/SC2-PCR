@@ -5,7 +5,7 @@
     "ratio": 0.2,
     "k1": 30,
     "k2": 20,
-    "data_path": "/mnt/A/hust_reg/chenzhi/SC2-PCR/dataset/KITTI/fpfh_test",
+    "data_path": "/data/KITTI/fpfh_test",
     "descriptor": "fpfh",
     "inlier_threshold": 0.6,
     "sigma_d": 0.6,
