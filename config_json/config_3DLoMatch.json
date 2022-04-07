@@ -5,7 +5,7 @@
     "ratio": 0.2,
     "k1": 30,
     "k2": 20,
-    "data_path": "/mnt/A/hust_reg/chenzhi/SC2-PCR/dataset/3DLoMatch",
+    "data_path": "data/3DLoMatch",
     "descriptor": "predator",
     "inlier_threshold": 0.1,
     "sigma_d": 0.1,
