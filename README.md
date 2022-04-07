@@ -109,7 +109,7 @@ python ./test_KITTI.py --config_path config_json/config_KITTI.json
 
 ### 3DMatch
 
-We evaluate SC^2-PCR on the standard 3DMatch benchmarks as in [PointDSC](https://github.com/XuyangBai/PointDSC).
+We evaluate SC^2-PCR on the standard 3DMatch benchmarks:
 
 |    Benchmark   |   RR  |   RE  |   TE  |   IP  |   IR  |   F1  |
 |:---------------|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
@@ -118,17 +118,19 @@ We evaluate SC^2-PCR on the standard 3DMatch benchmarks as in [PointDSC](https:/
 
 ### 3DMatch
 
-We evaluate SC^2-PCR on the standard 3DLoMatch benchmarks as in [PointDSC](https://github.com/XuyangBai/PointDSC).
+We evaluate SC^2-PCR on the standard 3DLoMatch benchmarks:
 
-| Benchmark |   RR  |   RR  |   RR  |   RR  |   RR  |   RR  |
-|:----------|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-| 3DMatch   | 83.98 | 83.98 | 83.98 | 83.98 | 83.98 | 83.98 |
+|       Benchmark     |   RR  |   RE  |   TE  |   IP  |   IR  |   F1  |
+|:--------------------|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+| 3DLoMatch+FCGF      | 57.83 | 3.77  | 10.46 | 44.87 | 53.69 | 48.38 |
+| 3DLoMatch+Predator  | 69.46 | 3.46  | 9.58  | 56.98 | 67.47 | 61.08 |
 
-### Kitti odometry
+### KITTI odometry
 
-We evaluate SC^2-PCR on the standard KITTI benchmarks as in [PointDSC](https://github.com/XuyangBai/PointDSC).
+We evaluate SC^2-PCR on the standard KITTI benchmarks:
 
-| Benchmark |   RR  |   RR  |   RR  |   RR  |   RR  |   RR  |
-|:----------|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-| 3DMatch   | 83.98 | 83.98 | 83.98 | 83.98 | 83.98 | 83.98 |
+|    Benchmark   |   RR  |   RE  |   TE  |   IP  |   IR  |   F1  |
+|:---------------|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|    KITTI+FPFH  | 83.98 | 2.18  | 6.56  | 72.48 | 78.33 | 75.10 |
+|    KITTI+FCGF  | 93.28 | 2.08  | 6.55  | 78.94 | 86.39 | 82.20 |
 
