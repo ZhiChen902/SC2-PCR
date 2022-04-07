@@ -44,3 +44,11 @@ Downsample and extract fpfh and fcgf descriptors for each frame of the 3DMatch t
         │   ├── sun3d-home_at-home_at_scan1_2013_jan_1-evaluation/
         │   └── ...                               
 ```
+
+### Testing
+
+Use the following command for testing.
+
+```bash
+python ./test_3DMatch.py
+```
