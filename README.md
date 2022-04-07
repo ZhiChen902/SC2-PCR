@@ -50,5 +50,7 @@ Downsample and extract fpfh and fcgf descriptors for each frame of the 3DMatch t
 Use the following command for testing.
 
 ```bash
-python ./test_3DMatch.py --config_path config_json/config_3DLoMatch.json
+python ./test_3DMatch.py --config_path config_json/config_3DMatch.json
 ```
+
+The CUDA_DEVICE and basic parameters can be changed in the json file.
