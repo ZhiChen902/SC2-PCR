@@ -81,14 +81,20 @@ python ./test_3DLoMatch.py --config_path config_json/config_3DLoMatch.json
 
 ### Data preparation
 
-Downsample and extract FPFH and FCGF descriptors for each frame of the KITTI test dataset. The raw point clouds can be download from [KITTI Odometry website.](http://www.cvlibs.net/datasets/kitti/eval_odometry.php). For your convenience, [here](https://drive.google.com/file/d/1zuf6NSD3-dHtTpk34iHtxAf8DQx3Y7RH/view?usp=sharing) we provide the pre-computed descriptors for the KITTI test set.
+Downsample and extract FPFH and FCGF descriptors for each frame of the KITTI test dataset. The raw point clouds can be download from [KITTI Odometry website.](http://www.cvlibs.net/datasets/kitti/eval_odometry.php). For your convenience, [here](https://drive.google.com/drive/folders/1sxkHYjWHhSUE3IcvmZ2p1ziw1LqJqqfc?usp=sharing) we provide the pre-computed FPFH and FCGF descriptors for the KITTI test set.
 
 ```
---data--3DLoMatch                
-        ├── 0.pth        
-        ├── 1.pth                 
-        ├── ...  
-        └── 1780.pth
+--data--KITTI                
+        ├── fpfh_test                 
+        │   ├── pair_0.npz        
+        |   ├── pair_1.npz                
+        |   ├── ...  
+        |   └── pair_554.npz
+        ├── fcgf_test                
+        │   ├── pair_0.npz        
+        |   ├── pair_1.npz                
+        |   ├── ...  
+        |   └── pair_554.npz
 ```
 
 ### Testing
@@ -96,5 +102,5 @@ Downsample and extract FPFH and FCGF descriptors for each frame of the KITTI tes
 Use the following command for testing.
 
 ```bash
-python ./test_3DLoMatch.py --config_path config_json/config_3DLoMatch.json
+python ./test_KITTI.py --config_path config_json/config_KITTI.json
 ```
