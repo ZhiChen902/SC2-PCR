@@ -60,3 +60,11 @@ The CUDA_DEVICE and basic parameters can be changed in the json file.
 ### Data preparation
 
 FPFH and FCGF descriptors can be prepared in the same way as testing 3DMatch. If you want to test the [predator](https://github.com/prs-eth/OverlapPredator) descriptor, you should first follow the offical instruction of predator to extract the descriptors for 3DMatch dataset and organize the data as follows: 
+
+```
+--data--3DLoMatch                
+        ├── 0.pth        
+        ├── 1.pth                 
+        ├── ...  
+        └── 1780.pth
+```
