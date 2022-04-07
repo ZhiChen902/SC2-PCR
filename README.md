@@ -147,9 +147,8 @@ We evaluate SC^2-PCR on the standard KITTI benchmarks:
 
 ## Acknowledgements
 
-- [D3Feat](https://github.com/XuyangBai/D3Feat.pytorch)
+- [PointDSC](https://github.com/XuyangBai/PointDSC)
+- [FCGF](https://github.com/chrischoy/FCGF)
+- [DGR](https://github.com/chrischoy/DeepGlobalRegistration)
 - [PREDATOR](https://github.com/prs-eth/OverlapPredator)
-- [RPMNet](https://github.com/yewzijian/RPMNet)
-- [CoFiNet](https://github.com/haoyu94/Coarse-to-fine-correspondences)
-- [huggingface-transformer](https://github.com/huggingface/transformers)
-- [SuperGlue](https://github.com/magicleap/SuperGluePretrainedNetwork)
+
