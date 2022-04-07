@@ -134,3 +134,22 @@ We evaluate SC^2-PCR on the standard KITTI benchmarks:
 |    KITTI+FPFH  | 99.64 | 0.32  | 7.23  | 93.63 | 95.89 | 94.63 |
 |    KITTI+FCGF  | 98.20 | 0.33  | 20.95 | 82.01 | 91.03 | 85.90 |
 
+## Citation
+
+```bibtex
+@article{chen2022sc,
+  title={SC\^{} 2-PCR: A Second Order Spatial Compatibility for Efficient and Robust Point Cloud Registration},
+  author={Chen, Zhi and Sun, Kun and Yang, Fan and Tao, Wenbing},
+  journal={arXiv preprint arXiv:2203.14453},
+  year={2022}
+}
+```
+
+## Acknowledgements
+
+- [D3Feat](https://github.com/XuyangBai/D3Feat.pytorch)
+- [PREDATOR](https://github.com/prs-eth/OverlapPredator)
+- [RPMNet](https://github.com/yewzijian/RPMNet)
+- [CoFiNet](https://github.com/haoyu94/Coarse-to-fine-correspondences)
+- [huggingface-transformer](https://github.com/huggingface/transformers)
+- [SuperGlue](https://github.com/magicleap/SuperGluePretrainedNetwork)
