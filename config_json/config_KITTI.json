@@ -1,0 +1,20 @@
+{
+    "CUDA_Devices": "2",
+    "num_iterations": 10,
+    "dataset": "KITTI",
+    "ratio": 0.2,
+    "k1": 30,
+    "k2": 20,
+    "data_path": "/mnt/A/hust_reg/chenzhi/SC2-PCR/dataset/KITTI/fpfh_test",
+    "descriptor": "fpfh",
+    "inlier_threshold": 0.6,
+    "sigma_d": 0.6,
+    "d_thre": 0.6,
+    "downsample": 0.3,
+    "re_thre": 5,
+    "te_thre": 60,
+    "num_node": 8000,
+    "use_mutual": false,
+    "max_points": 8000,
+    "nms_radius": 0.1
+}
