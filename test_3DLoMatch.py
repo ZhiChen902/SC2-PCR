@@ -103,7 +103,7 @@ def eval_3DLoMatch(config):
     allpair_average = allpair_stats.mean(0)
     allpair_status_ndarray = np.array(allpair_stats, dtype=float)
 
-    benchmark_predator(allpair_poses, gt_folder='/mnt/A/hust_reg/chenzhi/PointDSC-master-test-propagation4/PointDSC-master/data/OverlapPredator/configs/benchmarks/3DLoMatch')
+    benchmark_predator(allpair_poses, gt_folder='benchmarks/3DLoMatch')
     
     # benchmarking using the registration recall defined in DGR 
     allpair_average = allpair_stats.mean(0)
