@@ -104,3 +104,31 @@ Use the following command for testing.
 ```bash
 python ./test_KITTI.py --config_path config_json/config_KITTI.json
 ```
+
+## Results
+
+### 3DMatch
+
+We evaluate SC^2-PCR on the standard 3DMatch benchmarks as in [PointDSC](https://github.com/XuyangBai/PointDSC).
+
+|    Benchmark   |   RR  |   RE  |   TE  |   IP  |   IR  |   F1  |
+|:---------------|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|  3DMatch+FPFH  | 83.98 | 2.18  | 6.56  | 72.48 | 78.33 | 75.10 |
+|  3DMatch+FCGF  | 93.28 | 2.08  | 6.55  | 78.94 | 86.39 | 82.20 |
+
+### 3DMatch
+
+We evaluate SC^2-PCR on the standard 3DLoMatch benchmarks as in [PointDSC](https://github.com/XuyangBai/PointDSC).
+
+| Benchmark |   RR  |   RR  |   RR  |   RR  |   RR  |   RR  |
+|:----------|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+| 3DMatch   | 83.98 | 83.98 | 83.98 | 83.98 | 83.98 | 83.98 |
+
+### Kitti odometry
+
+We evaluate SC^2-PCR on the standard KITTI benchmarks as in [PointDSC](https://github.com/XuyangBai/PointDSC).
+
+| Benchmark |   RR  |   RR  |   RR  |   RR  |   RR  |   RR  |
+|:----------|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+| 3DMatch   | 83.98 | 83.98 | 83.98 | 83.98 | 83.98 | 83.98 |
+
