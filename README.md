@@ -68,3 +68,11 @@ FPFH and FCGF descriptors can be prepared in the same way as testing 3DMatch. If
         ├── ...  
         └── 1780.pth
 ```
+
+### Testing
+
+Use the following command for testing.
+
+```bash
+python ./test_3DLoMatch.py --config_path config_json/config_3DLoMatch.json
+```
