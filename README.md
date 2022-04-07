@@ -50,5 +50,5 @@ Downsample and extract fpfh and fcgf descriptors for each frame of the 3DMatch t
 Use the following command for testing.
 
 ```bash
-python ./test_3DMatch.py
+python ./test_3DMatch.py --config_path config_json/config_3DLoMatch.json
 ```
