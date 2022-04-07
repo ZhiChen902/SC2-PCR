@@ -24,3 +24,23 @@ If you are using conda, you may configure PointDSC as:
 ### Data preparation
 
 Downsample and extract fpfh and fcgf descriptors for each frame of the 3DMatch test dataset. [PointDSC](https://github.com/XuyangBai/PointDSC) provides the pre-computed descriptors for the 3DMatch test set [here](https://drive.google.com/file/d/1zuf6NSD3-dHtTpk34iHtxAf8DQx3Y7RH/view?usp=sharing). Then download the ground truth poses from the [website of 3DMatch Benchmark](http://3dmatch.cs.princeton.edu/#geometric-registration-benchmark). The data should be organized as follows:
+
+```
+--data--3DMatch                
+        ├── fragments                 
+        │   ├── 7-scene-redkitechen/
+        |   |   ├── cloud_bin_0.ply
+        |   |   ├── cloud_bin_0_fcgf.npz
+        |   |   ├── cloud_bin_0_fpfh.npz
+        │   |   └── ...      
+        │   ├── sun3d-home_at-home_at_scan1_2013_jan_1/      
+        │   └── ...                
+        ├── gt_result                   
+        │   ├── 7-scene-redkitechen-evaluation/   
+        |   |   ├── 3dmatch.log
+        |   |   ├── gt.info
+        |   |   ├── gt.log
+        │   |   └── ...
+        │   ├── sun3d-home_at-home_at_scan1_2013_jan_1-evaluation/
+        │   └── ...                               
+```
