@@ -111,7 +111,7 @@ python ./test_KITTI.py --config_path config_json/config_KITTI.json
 
 We evaluate SC^2-PCR on the standard 3DMatch benchmarks:
 
-|    Benchmark   |   RR  |   RE  |   TE  |   IP  |   IR  |   F1  |
+|    Benchmark   | RR(%) | RE(°) |TE(cm) | IP(%) | IR(%) | F1(%) |
 |:---------------|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
 |  3DMatch+FPFH  | 83.98 | 2.18  | 6.56  | 72.48 | 78.33 | 75.10 |
 |  3DMatch+FCGF  | 93.28 | 2.08  | 6.55  | 78.94 | 86.39 | 82.20 |
@@ -120,7 +120,7 @@ We evaluate SC^2-PCR on the standard 3DMatch benchmarks:
 
 We evaluate SC^2-PCR on the standard 3DLoMatch benchmarks:
 
-|       Benchmark     |   RR  |   RE  |   TE  |   IP  |   IR  |   F1  |
+|       Benchmark     | RR(%) | RE(°) |TE(cm) | IP(%) | IR(%) | F1(%) |
 |:--------------------|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
 | 3DLoMatch+FCGF      | 57.83 | 3.77  | 10.46 | 44.87 | 53.69 | 48.38 |
 | 3DLoMatch+Predator  | 69.46 | 3.46  | 9.58  | 56.98 | 67.47 | 61.08 |
@@ -129,7 +129,7 @@ We evaluate SC^2-PCR on the standard 3DLoMatch benchmarks:
 
 We evaluate SC^2-PCR on the standard KITTI benchmarks:
 
-|    Benchmark   |   RR  |   RE  |   TE  |   IP  |   IR  |   F1  |
+|    Benchmark   | RR(%) | RE(°) |TE(cm) | IP(%) | IR(%) | F1(%) |
 |:---------------|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
 |    KITTI+FPFH  | 99.64 | 0.32  | 7.23  | 93.63 | 95.89 | 94.63 |
 |    KITTI+FCGF  | 98.20 | 0.33  | 20.95 | 82.01 | 91.03 | 85.90 |
