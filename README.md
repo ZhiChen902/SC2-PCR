@@ -14,7 +14,7 @@ In this paper, we present a second order spatial compatibility (SC^2) measure ba
 
 ## Requirements
 
-If you are using conda, you may configure PointDSC as:
+If you are using conda, you may configure SC2-PCR as:
 
     conda env create -f environment.yml
     conda activate SC2_PCR
