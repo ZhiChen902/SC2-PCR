@@ -1,4 +1,4 @@
-# SC^2-PCR: A Second Order Spatial Compatibility for Efficient and Robust Point Cloud Registration(CVPR 2022)
+# SC^2-PCR: A Second Order Spatial Compatibility for Efficient and Robust Point Cloud Registration (CVPR 2022)
 
 PyTorch implementation of the paper:
 
