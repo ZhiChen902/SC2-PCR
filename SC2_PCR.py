@@ -72,6 +72,10 @@ class Matcher():
         bs, num_corr, num_channels = SC2_measure.shape[0], SC2_measure.shape[1], SC2_measure.shape[2]
         k1 = self.k1
         k2 = self.k2
+        
+        if k1 > num_channels:
+            k1 = 4
+            k2 = 4
 
         #################################
         # The first stage consensus set sampling
