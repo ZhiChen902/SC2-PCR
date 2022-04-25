@@ -124,7 +124,7 @@ class Matcher():
         #################################
         # Power iteratation to get the inlier probability
         #################################
-        local_SC_measure[:, torch.arange(local_SC2_measure.shape[1]), torch.arange(local_SC2_measure.shape[1])] = 0
+        local_SC2_measure[:, torch.arange(local_SC2_measure.shape[1]), torch.arange(local_SC2_measure.shape[1])] = 0
         total_weight = self.cal_leading_eigenvector(local_SC2_measure, method='power')
         total_weight = total_weight.view([bs, -1, k2])
         total_weight = total_weight / (torch.sum(total_weight, dim=-1, keepdim=True) + 1e-6)
