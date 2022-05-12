@@ -134,7 +134,8 @@ if __name__ == '__main__':
 
     import os
     os.environ['CUDA_VISIBLE_DEVICES'] = config.CUDA_Devices
-
+    if not os.path.exists("./logs"):
+        os.makedirs("./logs")
     log_filename = f'logs/KITTI-{config.descriptor}.log'
     logging.basicConfig(level=logging.INFO,
                         filename=log_filename,
