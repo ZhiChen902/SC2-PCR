@@ -137,11 +137,13 @@ We evaluate SC^2-PCR on the standard KITTI benchmarks:
 ## Citation
 
 ```bibtex
-@article{chen2022sc,
-  title={SC\^{} 2-PCR: A Second Order Spatial Compatibility for Efficient and Robust Point Cloud Registration},
-  author={Chen, Zhi and Sun, Kun and Yang, Fan and Tao, Wenbing},
-  journal={arXiv preprint arXiv:2203.14453},
-  year={2022}
+@InProceedings{Chen_2022_CVPR,
+    author    = {Chen, Zhi and Sun, Kun and Yang, Fan and Tao, Wenbing},
+    title     = {SC2-PCR: A Second Order Spatial Compatibility for Efficient and Robust Point Cloud Registration},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2022},
+    pages     = {13221-13231}
 }
 ```
 
