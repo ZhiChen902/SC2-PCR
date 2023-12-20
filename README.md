@@ -23,7 +23,7 @@ If you are using conda, you may configure SC2-PCR as:
 
 ### Data preparation
 
-Downsample and extract FPFH and FCGF descriptors for each frame of the 3DMatch test dataset. [PointDSC](https://github.com/XuyangBai/PointDSC) provides the pre-computed descriptors for the 3DMatch test set [here](https://drive.google.com/file/d/1zuf6NSD3-dHtTpk34iHtxAf8DQx3Y7RH/view?usp=sharing). Then download the ground truth poses from the [website of 3DMatch Benchmark](http://3dmatch.cs.princeton.edu/#geometric-registration-benchmark). The data should be organized as follows:
+Downsample and extract FPFH and FCGF descriptors for each frame of the 3DMatch test dataset. [Here](https://drive.google.com/file/d/1kRwuTHlNPr9siENcEMddCO23Oaq0cz-X/view?usp=drive_link) we provide the processed test set with pre-computed FPFH/FCGF descriptors. The data should be organized as follows:
 
 ```
 --data--3DMatch                
